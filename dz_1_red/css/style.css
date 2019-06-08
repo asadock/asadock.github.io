@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant:300,400,700|El+Messiri|Marck+Script&display=swap');
+
+body,*{
+    margin: 0px;
+    padding: 0%;
+}
+
+.imgcenter{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1,h2,h3{
+    font-size: 250%;
+    color:rgb(255, 1, 1);
+    font-family: Cormorant Infant;
+    text-align: center;
+    font-weight: bold;
+}
+
+.stra{
+    width: 640px;
+    padding-left: 30%;
+}
+
+.stra h1{
+    font-size: 45px;
+    background-image: url("../img/Books_Icon_48.png");
+    background-repeat: no-repeat;
+    padding-left: 5%;
+}
+
+a{
+    font-family: Cormorant Infant;
+    font-weight: bold;
+    color: wheat;
+    font-size: 20px;
+}
+
+p{
+    text-indent: 20px;
+    font-family: El Messiri;
+    color: white;
+    font-size: 20px;
+}
+
+p:hover{
+    background: #555;
+}
+
+li:hover{
+    background:  rgb(214, 2, 2);
+    color: white;
+}
+
+
+.styleDialog{
+    font-family: Marck Script;
+    list-style-type: none;
+    /* font-weight: bold; */
+    color: wheat;
+    font-size: 20px;
+}
+
+.styleDialog::before{
+    content: "- ";
+    color: white;
+}
+
+body{
+    background-image: url("../img/lord_ring_3.jpg");
+}
+
+div{
+    padding-left:20%;
+    padding-right:20%;
+}
+
+.end{
+    text-align: center;
+}
+
+
+.contents li:hover{
+    /* list-style-type: none; */
+    list-style-image: url("../img/Sword_Icon_16.png");
+    /* list-style-position: inside; */
+}
