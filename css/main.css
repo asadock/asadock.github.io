@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Pacifico&display=swap');
+
+body,*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    height: 45vh;
+    background: linear-gradient(to bottom left,black,rgb(161, 161, 161));
+    margin: -292px 0 0 0;
+    position: relative;
+    -moz-transition: margin 1s;
+    -webkit-transition: margin 1s;
+    -o-transition: margin 1s;
+    transition: margin 1s;
+}
+
+.wrapper:hover {
+    margin-top: 0;    
+  }
+
+.block1{
+    width: 30%;
+    height: 85%;
+    background-image: url("../img/ring_1.jpg");
+    background-size: 100% 90%;
+    float: left;
+    margin: 0 20px;
+    border: solid white;
+    border-width:3px;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: 1s ease-out;
+    -o-transition: 1s ease-out;
+    transition: all 1s ease-out;
+}
+.block1:hover{
+    -moz-transform:scale(0.9);
+    -webkit-transform:scale(0.9);
+    -o-transform:scale(0.9); 
+    transform: scale(0.9);
+}
+
+.block2{
+    width: 30%;
+    height: 85%;
+    background-image: url("../img/ring_2.jpg");
+    background-size: 100% 90%;
+    float: left;
+    margin: 0 20px;
+    border: solid rgb(43, 41, 41);
+    border-width:3px;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: 1s ease-out;
+    -o-transition: 1s ease-out;
+    transition: all 1s ease-out;
+}
+.block2:hover{
+    -moz-transform:scale(0.9);
+    -webkit-transform:scale(0.9);
+    -o-transform:scale(0.9); 
+    transform: scale(0.9);
+}
+
+.block3{
+    width: 30%;
+    height: 85%;
+    background-image: url("../img/phone.jpg");
+    background-size: 100% 90%;
+    float: left;
+    margin: 0 20px;
+    border: solid black;
+    border-width:3px;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: 1s ease-out;
+    -o-transition: 1s ease-out;
+    transition: all 1s ease-out;
+}
+.block3:hover{
+    -moz-transform:scale(0.9);
+    -webkit-transform:scale(0.9);
+    -o-transform:scale(0.9); 
+    transform: scale(0.9);
+}
+
+a{
+    display: block;
+    text-align: center; 
+    height: 85%;
+} 
+
+.block1 div{
+    background-color:rgb(99, 5, 10);
+    border: solid white;
+    border-width: 2px 1px 3px 1px;
+    height: 14%;
+    line-height: 100%; 
+    font-size: 250%;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: wheat;
+}
+
+.block2 div{
+    background-color:rgb(201, 42, 42);
+    border: solid rgb(43, 41, 41);
+    border-width: 2px 1px 3px 1px;
+    height: 14%;
+    line-height: 100%; 
+    font-size: 250%;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color:rgb(43, 41, 41);
+}
+
+.block3 div{
+    background-color:rgb(138, 221, 210);
+    border: solid black;
+    border-width: 2px 1px 3px 1px;
+    height: 14%;
+    line-height: 100%; 
+    font-size: 250%;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    10% { opacity: 0.8; }
+    20% { opacity: 0.6; }
+    30% { opacity: 0.4; }
+    40% { opacity: 0.2; }
+    50% { opacity: 0; }
+    60% { opacity: 0.2; }
+    70% { opacity: 0.4; }
+    80% { opacity: 0.6; }
+    90% { opacity: 0.8; }
+    100% { opacity: 1; }
+   }
+ 
+
+.blik{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    font-size: 150%;
+    line-height: 70%; 
+    font-family: 'Pacifico', cursive;
+    animation: blink 3s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeInLeft {
+    from {
+     opacity: 0;
+     transform: translateX(-2000px);
+    }
+    to {
+     opacity: 1;
+     transform: none;
+    }
+   }
+   @keyframes fadeInLeft {
+    from {
+     opacity: 0;
+     transform: translateX(-2000px);
+    }
+    to {
+     opacity: 1;
+     transform: none;
+    }
+   }
+ 
+
+.whoMade{
+    margin: 5% 38%;
+    width: 20%;
+    height: 420px;
+    border: 4px double black;
+    background-color: hotpink;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    -webkit-animation-name: fadeInLeft;
+    -webkit-animation-duration: 1s;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+}
+
+.img{
+    width: 90%;
+    height: 90%;
+    margin: 4%;
+    background-image: url("../img/me.jpg"); 
+    background-size: 100% 100%;
+    border: 4px double black;
+}
+
